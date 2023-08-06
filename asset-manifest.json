@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/test-page/static/css/main.5b6943f2.css",
+    "main.js": "/test-page/static/js/main.33ccf5aa.js",
+    "static/media/character_main_pic.png": "/test-page/static/media/character_main_pic.0eda2f6db6528976025e.png",
+    "static/media/article_1.png": "/test-page/static/media/article_1.68cf20a4901dab293788.png",
+    "static/media/lead_pic.png": "/test-page/static/media/lead_pic.8e377cb4d99301ead6cc.png",
+    "static/media/character_pic_2.png": "/test-page/static/media/character_pic_2.978eaeec5cba867ebae3.png",
+    "static/media/character_pic_3.png": "/test-page/static/media/character_pic_3.fbd4fcebb53e9f60b3f9.png",
+    "static/media/Orbitron-Regular.ttf": "/test-page/static/media/Orbitron-Regular.1f498717ba081693370a.ttf",
+    "static/media/article_2.png": "/test-page/static/media/article_2.eac049ed94053a95840a.png",
+    "static/media/article_5.png": "/test-page/static/media/article_5.29769210065b232b9c6c.png",
+    "static/media/article_4.png": "/test-page/static/media/article_4.a3f1cf826139ea41d6ed.png",
+    "static/media/article_3.png": "/test-page/static/media/article_3.f3cef98b175f34aab251.png",
+    "static/media/Orbitron-Regular.woff": "/test-page/static/media/Orbitron-Regular.6c38519d4395bad5e3b3.woff",
+    "static/media/character_pic_1.png": "/test-page/static/media/character_pic_1.6f17b84a311c8766f7d7.png",
+    "static/media/Orbitron-Regular.woff2": "/test-page/static/media/Orbitron-Regular.2d2becdbdbbc0dff5116.woff2",
+    "static/media/logo.svg": "/test-page/static/media/logo.1877e0670939901d8dff.svg",
+    "static/media/fire.svg": "/test-page/static/media/fire.65d647899f066815b51d.svg",
+    "static/media/cart.svg": "/test-page/static/media/cart.7317b55fd6ecb658fe92.svg",
+    "index.html": "/test-page/index.html",
+    "static/media/text_decoration.svg": "/test-page/static/media/text_decoration.c0a30b18da04c74c7b6f.svg",
+    "main.5b6943f2.css.map": "/test-page/static/css/main.5b6943f2.css.map",
+    "main.33ccf5aa.js.map": "/test-page/static/js/main.33ccf5aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b6943f2.css",
+    "static/js/main.33ccf5aa.js"
+  ]
+}
