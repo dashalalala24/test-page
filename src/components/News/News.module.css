@@ -1,0 +1,135 @@
+.root {
+  background-color: #000;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 9.05vw 4.16vw 9vw;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 0 4.4vw;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #fff;
+  font-size: 4.44vw;
+  line-height: 5.14vw;
+  font-weight: 400;
+  text-transform: capitalize;
+  width: 37.57vw;
+  padding: 0.82vw 0 0.2vw;
+  margin: 0;
+}
+
+.more {
+  color: #fff;
+  font-size: 1.18vw;
+  line-height: 1.94vw;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 1.42vw 2.57vw;
+  background-color: #57b8ff;
+  transition: opacity 0.3s;
+}
+
+.more:hover {
+  opacity: 0.7;
+}
+
+.items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.15vw 1.67vw;
+  padding: 10px 0 0;
+  max-width: 45.5vw;
+  justify-content: flex-end;
+}
+
+.empty {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 9.1vw 4.16vw 11vw;
+  }
+
+  .title {
+    font-size: 8.88vw;
+    line-height: 10.28vw;
+    width: 64vw;
+  }
+
+  .more {
+    font-size: 2.36vw;
+    line-height: 3.88vw;
+    padding: 2.84vw 5.14vw;
+  }
+
+  .items {
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw 3.34vw;
+    padding: 5vw 0 0;
+    max-width: 91vw;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    padding: 18vw 4.16vw;
+  }
+
+  .intro {
+    flex-direction: column;
+    gap: 5vw;
+    align-items: flex-end;
+    padding: 0 0 8vw;
+  }
+
+  .title {
+    font-size: 15vw;
+    line-height: 18vw;
+    width: 90vw;
+  }
+
+  .more {
+    font-size: 4vw;
+    line-height: 5vw;
+    padding: 4vw 6vw;
+  }
+
+  .wrapper {
+    gap: 15vw;
+    padding: 0;
+    max-width: 85vw;
+  }
+}

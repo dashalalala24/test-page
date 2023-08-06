@@ -1,0 +1,23 @@
+.logo {
+  grid-area: logo;
+  display: block;
+  background-image: url(../../images/logo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 11.8vw;
+  height: 3.33vw;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 23.6vw;
+    height: 6.66vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 35.4vw;
+    height: 9.99vw;
+  }
+}

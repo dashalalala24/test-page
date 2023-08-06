@@ -1,0 +1,61 @@
+.root {
+  grid-area: cart;
+  position: relative;
+  transition: opacity 0.3s;
+  display: flex;
+}
+
+.root:hover {
+  opacity: 0.7;
+}
+
+.button {
+  background-image: url(../../images/cart.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 2.22vw;
+  aspect-ratio: 1 / 1;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.number {
+  color: #141820;
+  font-size: 0.76vw;
+  line-height: 1.25vw;
+  background-color: #fff;
+  border-radius: 9px;
+  padding: 0 0.42vw;
+  position: absolute;
+  top: -0.55vw;
+  right: -1.39vw;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    width: 4.44vw;
+  }
+
+  .number {
+    font-size: 1.52vw;
+    line-height: 2.5vw;
+    padding: 0 0.84vw;
+    top: -1vw;
+    right: -2.5vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .button {
+    width: 6.66vw;
+  }
+
+  .number {
+    font-size: 2.28vw;
+    line-height: 3.75vw;
+    padding: 0 1.26vw;
+    top: -1.5vw;
+    right: -3.75vw;
+  }
+}

@@ -1,0 +1,150 @@
+.root {
+  background-color: #2a313c;
+}
+
+.container {
+  padding: 0 4.16vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 8.9vw;
+}
+
+.mainpic {
+  min-width: 41.38vw;
+  aspect-ratio: 0.8577 / 1;
+  object-fit: contain;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+
+.title {
+  color: #fff;
+  font-size: 4.44vw;
+  line-height: 5.14vw;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding: 0.83vw 0 0;
+  margin: 0;
+  width: 39.3vw;
+}
+
+.paragraph {
+  color: rgba(223, 223, 223, 0.8);
+  font-size: 1.39vw;
+  line-height: 2.08vw;
+  width: 38.96vw;
+  padding: 2.64vw 0 0;
+  margin: 0;
+}
+
+.pics {
+  display: flex;
+  gap: 0.64vw;
+  margin: 3.76vw 0 0;
+  cursor: pointer;
+}
+
+.pic {
+  border-radius: 20px;
+  padding: 0.76vw;
+  width: 12vw;
+  aspect-ratio: 1 / 0.59;
+  object-fit: contain;
+  transition: background-color 0.2s;
+}
+
+.pic:hover {
+  background-color: rgba(59, 61, 70, 0.5);
+}
+
+.pic_chosen {
+  background-color: #3b3d46;
+}
+
+.pic_chosen:hover {
+  background-color: #3b3d46;
+}
+
+@media screen and (max-width: 768px) {
+  .root {
+    padding: 10vw 0 0;
+  }
+
+  .container {
+    justify-content: center;
+  }
+
+  .mainpic {
+    display: none;
+  }
+
+  .title {
+    font-size: 8.88vw;
+    line-height: 10.28vw;
+    width: 91vw;
+  }
+
+  .paragraph {
+    font-size: 2.78vw;
+    line-height: 4.16vw;
+    width: 85vw;
+  }
+
+  .pics {
+    flex-direction: column;
+    align-items: flex-end;
+    width: 85vw;
+    gap: 1.28vw;
+    margin: 3.76vw 0 0;
+    padding: 0 0 4vw;
+    background-image: url(../../images/character_main_pic.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+  }
+
+  .pic {
+    padding: 1.52vw;
+    width: 24vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .root {
+    padding: 15vw 0;
+  }
+
+  .text {
+    gap: 5vw;
+  }
+
+  .title {
+    font-size: 15vw;
+    line-height: 18vw;
+    width: 90vw;
+  }
+
+  .paragraph {
+    max-width: 90vw;
+    font-size: 5vw;
+    line-height: 7vw;
+  }
+
+  .pics {
+    align-items: center;
+    padding: 0;
+    background-image: none;
+    gap: 3vw;
+  }
+
+  .pic {
+    padding: 4vw;
+    margin: 0 auto;
+    width: 80vw;
+  }
+}
