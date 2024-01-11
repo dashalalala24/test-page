@@ -34,8 +34,8 @@ export const News = () => {
         </div>
         <div className={styles.arcticles}>
           {articles.length ? (
-            <ul className={styles.items}>
-              <li className={styles.item}>
+            <div className={styles.items}>
+              <div className={styles.item}>
                 <Link
                   to='/'
                   className={styles.link}>
@@ -44,9 +44,9 @@ export const News = () => {
                     size='big'
                   />
                 </Link>
-              </li>
-              {articles.length > 1 ? <div className={styles.wrapper}>{getArticles()}</div> : null}
-            </ul>
+              </div>
+              {articles.length > 1 ? <ul className={styles.wrapper}>{getArticles()}</ul> : null}
+            </div>
           ) : (
             <p>No news yet</p>
           )}
